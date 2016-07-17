@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Type in the starting and ending months, days and years into the date calculator. Once finished, click on the Calculate button to see the result.
+
+        NOTE: For the month section, type the full month name (e.g. January) instead of the abbreviated version (e.g. Jan)"
+        android:id="@+id/txtInstructions" />
+</LinearLayout>
